@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/listViewArmExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/onaltiexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onalti" />
+
+    <TextView
+        android:id="@+id/onaltiexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/onaltiexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Düz bir sandalyeye oturup iki kolunuzu
+yukarı kaldırın her iki kolu da indirin."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/onyediexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onyedi" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/onyediexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/onyediexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Düz bir sandalyeye oturup iki kolunuzu da
+yana doğru yukarı kaldırın ve aşağı indirin."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/onsekizexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onsekiz" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/onsekizexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/onsekizexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandalyeye düz oturun.
+Kollarınızı dirsekten bükerek yukarı doğru kaldırın.
+Bükülürken kolu düzleştirin."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/ondokuzexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ondokuz" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/ondokuzexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/ondokuzexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ellerinizi ve kollarınızı öne doğru uzatın parmak uçlarınız
+aşağıyı gösterecek şekilde bileklerinizi aşağı doğru bükün,
+sonra bileklerinizi avuç içiniz karşıyı parmak uçlarınız
+yukarıyı gösterecek şekilde yukarıya doğru bükün."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+    </ScrollView>

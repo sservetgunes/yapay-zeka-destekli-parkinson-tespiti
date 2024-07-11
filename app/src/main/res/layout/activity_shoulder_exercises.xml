@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ListView
+        android:id="@+id/listViewShoulderExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageView
+        android:id="@+id/ondortexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ondort" />
+
+    <TextView
+        android:id="@+id/ondortexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/ondortexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bir sandalyeye düz oturun.
+Kollarınızı kaldırın.
+Omuzlarınızı düşürün."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/onbesexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onbes" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/onbesexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/onbesexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandalyeye düz bire şekilde oturdukdan sonra
+öne doğru gelin. Kürek kemiklerinizi sıkıştırın ve
+ardından omuzlarınızı normale döndürün."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

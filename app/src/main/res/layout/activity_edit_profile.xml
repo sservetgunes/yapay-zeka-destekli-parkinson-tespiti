@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FC819E"
+    android:padding="16dp">
+
+    <!-- İsim -->
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:hint="İsim"
+        android:inputType="text|textPersonName" />
+
+    <!-- Soyisim -->
+    <EditText
+        android:id="@+id/surnameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:hint="Soyisim"
+        android:inputType="text" />
+
+    <!-- Boy -->
+    <EditText
+        android:id="@+id/heightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:hint="Boy (cm)"
+        android:inputType="number" />
+
+    <!-- Kilo -->
+    <EditText
+        android:id="@+id/weightEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Kilo (kg)"
+        android:inputType="number" />
+
+    <!-- Doğum Tarihi -->
+    <EditText
+        android:id="@+id/birthDateEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginTop="10dp"
+        android:hint="Doğum Tarihi (GG/AA/YYYY)"
+        android:inputType="datetime|date" />
+
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#F7418F"
+        android:text="Kaydet" />
+
+</LinearLayout>

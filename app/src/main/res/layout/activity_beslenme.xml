@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9290C3">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Başlık: Parkinson ve Beslenme -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Parkinson ve Beslenme"
+            android:textColor="#3F51B5"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <!-- Genel Bilgi Metni -->
+        <TextView
+            android:id="@+id/textViewGeneralInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewTitle"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="Parkinson hastalığını ve bulgularını tedavi eden belirli bir diyet yoktur ama sağlıklı ve dengeli bir beslenme şekli, genel iyilik halini sağlar. Sebze ve meyve yemek sizi enerjik tutar ve vücudunuzda su kaybını önler. Zengin lifli yiyecekler ve sıvı alımı tansiyon ve kabızlık şikayetlerini hafifletir. Tedavi rejiminiz diyetinizi etkileyebilir. Yemeklerin zamanı ve içeriğini ayarlamak tedavinin daha etkin olmasını sağlar. Özellikle bazı yiyeceklerin yan etkilerinden korunmak için onları yemekten kaçınmanız gerekir. Doktorunuzla ve bir diyetisyen ile birlikte size en uygun diyeti belirlemek için çalışmalısınız. Sağlıklı bir beslenme programı için: • Farklı tür yiyecekler yiyin. • Sağlıklı porsiyonlarda yiyin. • Yiyecek gruplarını doğru dengede yiyin. • Düzenli öğünler yiyin. • Yeterli miktarda su için • Günde en az beş öğün sebze yiyin."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Diyet ile İlgili Değişiklikler Başlık -->
+        <TextView
+            android:id="@+id/textViewDietChangesTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewGeneralInfo"
+            android:layout_marginTop="24dp"
+            android:text="Diyet ile İlgili Hangi Değişiklikler Parkinson Hastalarında İşe Yarar?"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Diyet ile İlgili Değişiklikler Metni -->
+        <TextView
+            android:id="@+id/textViewDietChangesInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDietChangesTitle"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="Kabızlık Parkinson hastalarında sık görülür. Sıvı ve lifli gıdaların tüketimini artırmak barsak hareketlerini düzenler. Sabah ılık içecekler içmek, günde 8 bardak su içmek barsak hareketlerini hızlandırır. Meyveler, sebzeler tam buğday içeren besinler lif kaynağı olan yiyeceklerdir ve bunların çoğu aynı zamanda da antioksidandır. Bazı Parkinson ilaçlarının yan etkisi düşük tansiyondur. Sıvı ve tuz alımı tansiyonu yükseltecektir ancak kalp ve böbrek problemleriniz varsa öncelikle hekiminiz ile konuşmalısınız. Az ve sık yemek arada olan tansiyon dalgalanmalarını engeller. Yutma problemleri öksürme ve boğazda takılma hissi olarak kendini gösterebilir. Bir konuşma terapisti kişisel olarak size uygun bir beslenme değişikleri yapabilir. Yutma algısını artıran yiyecekleri artırabilir, katı ve sıvı gıdaların dengesini değiştirebilir. Dik olarak oturmalısınız, küçük lokmalar ısırmalısınız, yavaş yemelisiniz ve yemek zamanlarını uzun tutmalısınız. Bazı Parkinson hastalarında özellikle geceleri ve doz sonu kötüleşmesi yaşadıklarında ağrılı kas krampları olabilir . Sarı hardal, zerdeçal yemek, soda içmek yardımcı olabilir. Doğru miktarda su alınmış olması kramplardan koruyabilir. Daha çok sabahları olan tansiyon oynamaları ve baş dönmeleri tansiyon ilaçlarının öğlene doğru alınması ile giderilebilir. Tansiyon düşüklüğünün sabah içilen türk kahvesi ile dengelenmesi de olasıdır."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Sağlıklı Kilo Devamı Başlık -->
+        <TextView
+            android:id="@+id/textViewHealthyWeightTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewDietChangesInfo"
+            android:layout_marginTop="24dp"
+            android:text="Sağlıklı kiloyu devam ettirmek"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Sağlıklı Kilo Devamı Metni -->
+        <TextView
+            android:id="@+id/textViewHealthyWeightInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHealthyWeightTitle"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="Parkinson hastalığında hareket azaldığı için kilo alınabilir. Fazla kilolu olmak eklemleri yorar ve hareket etmeyi zorlaştırır. Eğer kilo alırsanız diyetinize ve aldığınız kalorilere dikkat etmeniz gerekir örneğin kızarmış yiyeceklerden, tatlılardan, pastalardan, bisküvilerden ve tatlı içeceklerden uzak durmalısınız. Genel olarak Parkinson hastaları kilo kaybeder. Eğer kilo kaybediyorsanız bunun iştah kaybı, yeme ve yutmada zorluk, bulantı , istemsiz hareketlerle (diskinezi ) baş etmek için vücudun kullandığı ekstra enerji ve vücudun besinleri etkili bir şekilde emilimini yapamaması gibi bir çok nedeni vardır. Farklı ilaç tedavileri de vücut ağırlığını etkiler."
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Doğru Denge Başlık -->
+        <TextView
+            android:id="@+id/textViewBalanceTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewHealthyWeightInfo"
+            android:layout_marginTop="24dp"
+            android:text="Doğru dengeyi bulmak"
+            android:textColor="#3F51B5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <!-- Doğru Denge Metni -->
+        <TextView
+            android:id="@+id/textViewBalanceInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBalanceTitle"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:text="Dengeli beslenme aşağıdaki listedeki farklı yiyecek grubundan çeşitli gıdaları içermektedir. Gün boyunca bütün gruplardan yediğinizden emin olmak için, ideal olarak bir öğünde en az üç gruptan yiyecekler ile beslenmelisiniz. Eğer belirli bir tedavi alıyorsanız bu her zaman mümkün olmayabilir ve size verilen diyete uymanız gerekebilir. Genel diyet önerileri şu şekildedir: Eğer istemsiz hareketleriniz oluyorsa vücut ağırlığınızın her bir kilosu için 25-30 kalori almalısınız. Karbonhidrat protein oranı 4-5:1 olmalıdır. Günlük protein alımı vücut ağırlığınıza göre kilo başı 0,8 gram olmalıdır"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <!-- Örnek Diyet Listeleri Butonu -->
+        <Button
+            android:id="@+id/buttonSampleDiets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewBalanceInfo"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:padding="12dp"
+            android:text="Örnek Diyet Listeleri"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#3F51B5"
+            android:background="@drawable/button_rounded"/>
+
+    </RelativeLayout>
+</ScrollView>

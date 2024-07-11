@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission
+        android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+    <uses-permission
+        android:name="android.permission.USE_EXACT_ALARM" />
+    <uses-permission
+        android:name="android.permission.POST_NOTIFICATIONS"/>
+    <uses-permission
+        android:name="android.permission.VIBRATE" />
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bitirme"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="31">
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+        <activity
+            android:name=".PostureExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LegExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoreExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HandExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ArmExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShoulderExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NeckExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FaceExercisesActivity"
+            android:exported="false" />
+
+        <receiver android:name=".AlarmReceiver" />
+
+        <activity
+            android:name=".hatirlatici"
+            android:exported="false" />
+        <activity
+            android:name=".testSonucu"
+            android:exported="false" />
+        <activity
+            android:name=".diyetlisteleri"
+            android:exported="false" />
+        <activity
+            android:name=".randevu"
+            android:exported="false" />
+        <activity
+            android:name=".test"
+            android:exported="false" />
+        <activity
+            android:name=".beslenme"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".editProfile"
+            android:exported="false" />
+        <activity
+            android:name=".accelerometer"
+            android:exported="false" />
+        <activity
+            android:name=".anasayfa"
+            android:exported="false" />
+        <activity
+            android:name=".signup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">bitirme</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="action_settings">Setting</string>
+    <string name="kullaniciadi">Kullanıcı Adı</string>
+    <string name="e_posta">E-posta</string>
+    <string name="parola">Parola</string>
+    <string name="profile_image_description">Profil Fotoğrafı</string>
+    <string-array name="questions">
+        <item>Ellerinizde veya başka bir vücut bölgenizde titreme yaşıyor musunuz? Eğer öyleyse, titreme ne sıklıkta ve ne kadar şiddetli?</item>
+        <item>Günlük aktiviteleri yaparken hareketleriniz yavaşladı mı? Örneğin, yürürken veya bir şeyleri tutup kaldırırken zorlanıyor musunuz?</item>
+        <item>Kaslarınızda sertlik veya sıkışma hissediyor musunuz? Özellikle boyun, omuzlar veya eller gibi bölgelerde hissedebilirsiniz.</item>
+        <item>Dengeyi korumakta zorlanıyor musunuz? Sık sık düşme eğilimi gösteriyor musunuz?</item>
+        <item>Hareket etmeye başlamakta veya durdurmakta zorlanıyor musunuz? Özellikle bir sandalyeden kalkmak veya bir araç sürmek gibi durumlarda zorlanıyor musunuz?</item>
+        <item>Yazarken harfleriniz küçük ve düzensiz mi görünüyor? Yazarken el yazınızda belirgin bir değişiklik fark ettiniz mi?</item>
+        <item>Yüz ifadelerinizde azalma veya donukluk fark ettiniz mi? Özellikle gülümseme veya kaş kaldırma gibi ifadelerde zorluk çekiyor musunuz?</item>
+        <item>Konuşurken sesinizde bir değişiklik veya güçlük fark ettiniz mi? Örneğin, sesinizin düşük veya monoton olması gibi.</item>
+        <item>Son zamanlarda hafıza veya dikkatle ilgili sorunlar yaşıyor musunuz?</item>
+    </string-array>
+</resources>

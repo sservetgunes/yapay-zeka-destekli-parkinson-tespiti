@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/listViewFaceExercises"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/birexercise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ilk" />
+
+        <TextView
+            android:id="@+id/birexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/birexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="İleri doğru bakın ve yüz kaslarınızı
+korkunç yüz ifadesine büründürün."
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/ikiexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iki" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/ikiexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 2"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/ikiexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Başınızı düz tutarak kaşlarınızı kaldırın
+Yüz kaslarını gülümseme pozisyonunda tutun"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/ucexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/uc" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/ucexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 3"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/ucexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gözlerinizi sıkıca kapatın"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/dortexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dort" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/dortexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 4"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/dortexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yüz kaslarınızı tam gülümseme pozisyonunda tutun"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/besexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bes" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/besexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/besexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ağzınızı açabildiğiniz kadar açın"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/altiexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/alti" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/altiexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 6"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/altiexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dudaklarınızı sımsıkı kapatarak,
+yanaklarınızı şişirin ve sonra ağzınızdan havayı üfleyin."
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/yediexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yedi" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/yediexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 7"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/yediexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yüksek sesle bağırın
+La, la ,la İ,İ,İ,İ,İ P,P,P Gey, Gey, Gey
+gibi sesler çıkarın"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/sekizexercise"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sekiz" />
+
+        <!-- Başlık -->
+        <TextView
+            android:id="@+id/sekizexercisead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Egzersiz 8"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Açıklama -->
+        <TextView
+            android:id="@+id/sekizexercisetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ağzınızı açın ve dilinizi çıkartın
+Dilinizi sağa ve sola doğru hareket ettirin
+"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

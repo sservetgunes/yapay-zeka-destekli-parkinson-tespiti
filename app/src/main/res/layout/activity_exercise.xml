@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Yüz Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonFaceExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yüz Egzersizleri"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Göz Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonEyeExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Göz Egzersizleri"
+            android:layout_below="@id/buttonFaceExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Boyun Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonNeckExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boyun Egzersizleri"
+            android:layout_below="@id/buttonEyeExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Omuz Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonShoulderExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Omuz Egzersizleri"
+            android:layout_below="@id/buttonNeckExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Kol Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonArmExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kol Egzersizleri"
+            android:layout_below="@id/buttonShoulderExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- El Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonHandExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="El Egzersizleri"
+            android:layout_below="@id/buttonArmExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Gövde Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonCoreExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gövde Egzersizleri"
+            android:layout_below="@id/buttonHandExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Bacak Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonLegExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bacak Egzersizleri"
+            android:layout_below="@id/buttonCoreExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Duruş Egzersizi Butonu -->
+        <Button
+            android:id="@+id/buttonPostureExercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duruş Egzersizleri"
+            android:layout_below="@id/buttonLegExercises"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"/>
+    </LinearLayout>
+</ScrollView>

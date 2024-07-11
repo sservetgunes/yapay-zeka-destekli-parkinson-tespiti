@@ -1,0 +1,1078 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SampleDietsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- 1. GÜN Kartı -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            app:cardBackgroundColor="#BDBFCA">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="943dp"
+                android:padding="16dp">
+
+                <!-- Başlık -->
+                <TextView
+                    android:id="@+id/textViewTitleSampleDiets1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:text="Örnek Diyet Listesi - 1. GÜN"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı -->
+                <TextView
+                    android:id="@+id/textViewTitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitleSampleDiets1"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Kahvaltı"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle1"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr çay veya 60 gr kahve" />
+
+                <TextView
+                    android:id="@+id/textViewContent2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent1"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 10 gr esmer şeker" />
+
+                <TextView
+                    android:id="@+id/textViewContent3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent2"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 30 gr tahıllı tost ekmeği" />
+
+                <TextView
+                    android:id="@+id/textViewContent4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent3"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 20 gr reçel" />
+
+                <TextView
+                    android:id="@+id/textViewTitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent4"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Sabah Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle2"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 150 gr muz" />
+
+                <TextView
+                    android:id="@+id/textViewTitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent5"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Öğlen Yemeği"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle3"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 150 gr erişteli bezelye ve patates çorbası" />
+
+                <TextView
+                    android:id="@+id/textViewContent7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent6"
+                    android:layout_marginTop="3dp"
+                    android:padding="10dp"
+                    android:text="• 250 gr taze fasülye" />
+
+                <TextView
+                    android:id="@+id/textViewContent8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent7"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 60 gr tam buğday ekmeği" />
+
+                <TextView
+                    android:id="@+id/textViewContent9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent8"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr portakal" />
+
+                <TextView
+                    android:id="@+id/textViewTitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent9"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Öğleden Sonra Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle4"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr mandalina" />
+
+                <TextView
+                    android:id="@+id/textViewTitle5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent10"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Akşam Yemeği"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle5"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 270 gram dana fileto" />
+
+                <TextView
+                    android:id="@+id/textViewContent12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent11"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 70 gr dilim tam buğday ekmeği" />
+
+                <TextView
+                    android:id="@+id/textViewContent13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent12"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr haşlanmış kabak" />
+
+                <TextView
+                    android:id="@+id/textViewContent14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent13"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr patates" />
+
+                <TextView
+                    android:id="@+id/textViewContent15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent14"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 10 gr sızma zeytinyağı" />
+
+                <TextView
+                    android:id="@+id/textViewContent16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent15"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 250 gr elma" />
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- 2. GÜN Kartı -->
+
+        <!-- Geri Dönüş Butonu -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardBackgroundColor="@color/purple_200">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Başlık -->
+                <TextView
+                    android:id="@+id/textViewTitleSampleDiets2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="16dp"
+                    android:text="Örnek Diyet Listesi - 2. GÜN"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı -->
+                <TextView
+                    android:id="@+id/textViewTitle6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitleSampleDiets2"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Kahvaltı"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle6"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr çay veya 60 gr espresso" />
+
+                <TextView
+                    android:id="@+id/textViewContent18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent17"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 10 gr esmer şeker" />
+
+                <TextView
+                    android:id="@+id/textViewContent19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent18"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 30 gr tahıllı Tost" />
+
+                <TextView
+                    android:id="@+id/textViewContent20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent19"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 20 gr meyve reçeli" />
+
+                <TextView
+                    android:id="@+id/textViewTitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent20"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Sabah Ara Öğün"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle7"
+                    android:layout_marginTop="16dp"
+                    android:padding="16dp"
+                    android:text="• 300 gr şeftali" />
+
+                <TextView
+                    android:id="@+id/textViewTitle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent21"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Öğlen Yemeği"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle8"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr enginarlı burgu makarna" />
+
+                <TextView
+                    android:id="@+id/textViewContent23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent22"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr brokoli" />
+
+                <TextView
+                    android:id="@+id/textViewContent24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent23"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 80 gr tam buğday ekmeği" />
+
+                <TextView
+                    android:id="@+id/textViewContent25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent24"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr elma" />
+
+                <TextView
+                    android:id="@+id/textViewTitle9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent25"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Öğleden Sonra Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle9"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 250 gr elma" />
+
+                <TextView
+                    android:id="@+id/textViewTitle10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent26"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Akşam Yemeği"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textViewContent27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle10"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr sebzeli omlet" />
+
+                <TextView
+                    android:id="@+id/textViewContent28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent27"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 400 gr haşlanmış mantar" />
+
+                <TextView
+                    android:id="@+id/textViewContent29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent28"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr kepekli ekmek" />
+
+
+                <!-- Diğer yemek öğeleri buraya eklenebilir -->
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <!-- 3. GÜN Kartı -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:elevation="8dp"
+            app:cardBackgroundColor="#DC3D73">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Gün Başlığı -->
+                <TextView
+                    android:id="@+id/textViewSampleDiets3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Örnek Diyet Listesi - 3. GÜN"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewSampleDiets3"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Kahvaltı"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle11"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr çay veya 60 gr espresso" />
+
+                <TextView
+                    android:id="@+id/textViewContent31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent30"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 15 gr esmer şeker" />
+
+                <TextView
+                    android:id="@+id/textViewContent32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent31"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 60 gr çavdar ekmeği veya 60 gr kepekli ekmek" />
+
+                <TextView
+                    android:id="@+id/textViewContent33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent32"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 30 gr meyve reçeli" />
+
+                <!-- Sabah Ara Öğünü Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent33"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Sabah Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <!-- Sabah Ara Öğünü İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle12"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 250 gr yeşil elma" />
+
+                <!-- Öğlen Yemeği Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent34"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Öğlen Yemeği"
+                    android:textStyle="bold" />
+
+                <!-- Öğlen Yemeği İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle13"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr kabaklı makarna" />
+
+                <TextView
+                    android:id="@+id/textViewContent36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent35"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 10 gr eski kaşar" />
+
+                <TextView
+                    android:id="@+id/textViewContent37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent36"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 250 gr brokoli" />
+
+                <TextView
+                    android:id="@+id/textViewContent38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent37"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 260 gr nar suyu" />
+
+                <!-- Öğleden Sonra Ara Öğünü Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent38"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Öğleden Sonra Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <!-- Öğleden Sonra Ara Öğünü İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle14"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 310 gr armut" />
+
+                <TextView
+                    android:id="@+id/textViewContent40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent39"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 20 gr kuru ceviz" />
+
+                <!-- Akşam Yemeği Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent40"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Akşam Yemeği"
+                    android:textStyle="bold" />
+
+                <!-- Akşam Yemeği İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle15"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 250 gr fesleğenli kalkan fileto" />
+
+                <TextView
+                    android:id="@+id/textViewContent42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent41"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr balkabağı püresi" />
+
+                <TextView
+                    android:id="@+id/textViewContent43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent42"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 200 gr kepekli ekmek" />
+
+                <TextView
+                    android:id="@+id/textViewContent44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent43"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 250 gr dilimlenmiş portakal" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <!-- 4. GÜN Kartı -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="8dp"
+            app:cardBackgroundColor="#58BA5C">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Gün Başlığı -->
+                <TextView
+                    android:id="@+id/textViewSampleDiets4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Örnek Diyet Listesi- 4. GÜN"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewSampleDiets4"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Kahvaltı"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle16"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr çay veya 40 gr espresso" />
+
+                <TextView
+                    android:id="@+id/textViewContent46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent45"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 15 gr esmer şeker" />
+
+                <TextView
+                    android:id="@+id/textViewContent47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent46"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 40 gr tahıllı tost ekmeği" />
+
+                <TextView
+                    android:id="@+id/textViewContent48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent47"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 30 gr bal veya 30 gr reçel" />
+
+                <!-- Sabah Ara Öğünü Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent48"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Sabah Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <!-- Sabah Ara Öğünü İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle17"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr portakal suyu" />
+
+                <!-- Öğle Yemeği Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent49"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Öğle Yemeği"
+                    android:textStyle="bold" />
+
+                <!-- Öğle Yemeği İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle18"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Mercimek, 100 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent51"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent50"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Ekşi pazı, 320 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent51"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Çavdar ekmeği, 60 gr" />
+
+                <TextView
+                    android:id="@+id/textViewContent53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent52"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Mandalina, 100 g" />
+
+                <!-- Öğleden Sonra Ara Öğünü Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent53"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Öğleden Sonra Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <!-- Öğleden Sonra Ara Öğünü İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle19"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Kayısı, 300 g" />
+
+                <!-- Akşam Yemeği Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent54"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Akşam Yemeği"
+                    android:textStyle="bold" />
+
+                <!-- Akşam Yemeği İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent55"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle20"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Ispanak mini topları, 350 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent56"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent55"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Bezelye çorbası, 300 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent57"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent56"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Kepekli ekmek, 80 gr" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <!-- 5. GÜN Kartı -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@android:color/white"
+            android:elevation="8dp"
+            app:cardBackgroundColor="#CDDC39">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <!-- Gün Başlığı -->
+                <TextView
+                    android:id="@+id/textViewSampleDiets5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Örnek Diyet Listesi- 5. GÜN"
+
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewSampleDiets5"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Kahvaltı"
+                    android:textStyle="bold" />
+
+                <!-- Kahvaltı İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent58"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle21"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 300 gr Çay" />
+
+                <TextView
+                    android:id="@+id/textViewContent59"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent58"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 10 gr Kahverengi şeker" />
+
+                <TextView
+                    android:id="@+id/textViewContent60"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent59"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• 40 gr tahıllı tost ekmeği" />
+
+                <TextView
+                    android:id="@+id/textViewContent61"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent60"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Bal 20 g veya meyve reçeli, 25 g" />
+
+                <!-- Sabah Ara Öğünü Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent61"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="Sabah Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <!-- Sabah Ara Öğünü İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle22"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Dilimlenmiş portakal, 250 g" />
+
+                <!-- Öğle Yemeği Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent62"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Öğle Yemeği"
+                    android:textStyle="bold" />
+
+                <!-- Öğle Yemeği İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle23"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Sebzeli makarna (kabak), 250 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent64"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent63"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Havuç püresi, 100 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent65"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent64"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Elma 250 g" />
+
+                <!-- Öğleden Sonra Ara Öğünü Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent65"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Öğleden Sonra Ara Öğünü"
+                    android:textStyle="bold" />
+
+                <!-- Öğleden Sonra Ara Öğünü İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent66"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle24"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Armut, 310 g" />
+
+                <!-- Akşam Yemeği Başlığı -->
+                <TextView
+                    android:id="@+id/textViewTitle25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent66"
+                    android:layout_marginTop="16dp"
+                    android:padding="8dp"
+                    android:text="Akşam Yemeği"
+                    android:textStyle="bold" />
+
+                <!-- Akşam Yemeği İçeriği -->
+                <TextView
+                    android:id="@+id/textViewContent67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewTitle25"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Pırasa ve nohut 250 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent67"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Rezene rendesi, 200 g" />
+
+                <TextView
+                    android:id="@+id/textViewContent69"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textViewContent68"
+                    android:layout_marginTop="3dp"
+                    android:padding="8dp"
+                    android:text="• Çavdar ekmeği, 100 gr veya kepekli ekmek, 100 gr" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <Button
+            android:id="@+id/buttonBack"
+            style="@style/BoldText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:text="Geri Dön"
+            app:backgroundTint="#3F51B5" />
+
+    </LinearLayout>
+
+</ScrollView>

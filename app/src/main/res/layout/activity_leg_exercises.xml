@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ListView
+        android:id="@+id/listViewLegExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageView
+        android:id="@+id/yirmiyediexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yirmiyedi" />
+
+    <TextView
+        android:id="@+id/yirmiyediexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/yirmiyediexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dik bir şekilde sandalyeye oturun.
+Sandalyenin kenarlarına tutunun. Bir dizinizi göğsünüze
+doğru bükün sonra diğer diziniz ile tekrarlayın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/yirmisekizexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yirmisekiz" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/yirmisekizexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/yirmisekizexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dik bir şekilde bir sandalyeye oturun.
+Dizinizi uzatabildiğiniz kadar öne uzatın ve geri çekin.
+Diğer ayağınızda da tekrarlayın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/yirmidokuzexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yirmidokuz" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/yirmidokuzexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/yirmidokuzexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandalyede dik bir şekilde oturun.
+Ayak bileğinizi yukarı aşağı bükün.
+Diğer ayağınızla da bunu yapın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEA5A6"
+    tools:context=".test">
+
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Soru 1: Ellerinizde veya başka bir vücut bölgenizde titreme yaşıyor musunuz? Eğer öyleyse, titreme ne sıklıkta ve ne kadar şiddetli?"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <RadioGroup
+        android:id="@+id/answersRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/questionTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer1RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/answer2RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b)Evet, orta seviyede "
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/answer3RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c)Evet, az seviyede"
+            android:textSize="20sp"/>
+
+        <RadioButton
+            android:id="@+id/answer4RadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d)Hayır, yaşamıyorum "
+            android:textSize="20sp"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answersRadioGroup"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#8E7AB5"
+        android:text="Sonraki" />
+
+
+    <TextView
+        android:id="@+id/question2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton"
+        android:layout_marginTop="500dp"
+        android:text="Soru2:Günlük aktiviteleri yaparken hareketleriniz yavaşladı mı? Örneğin, yürürken veya bir şeyleri tutup kaldırırken zorlanıyor musunuz?"
+        android:textColor="@android:color/black"
+        android:textSize="33sp" />
+
+    <RadioGroup
+        android:id="@+id/answers2RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question2TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        >
+
+        <RadioButton
+            android:id="@+id/answer2aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer2bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer2cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer2dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, hareketlerim normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers2RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:text="Sonraki" />
+
+
+    <TextView
+        android:id="@+id/question3TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru3:Kaslarınızda sertlik veya sıkışma hissediyor musunuz? Özellikle boyun, omuzlar veya eller gibi bölgelerde hissedebilirsiniz."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers3RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question3TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer3aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer3bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer3cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer3dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, kaslarım normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers3RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+    <!-- Soru 4 -->
+    <TextView
+        android:id="@+id/question4TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru4:Dengeyi korumakta zorlanıyor musunuz?
+
+
+
+                        Sık sık düşme eğilimi gösteriyor musunuz?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers4RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question4TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer4aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+        <RadioButton
+            android:id="@+id/answer4bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+        <RadioButton
+            android:id="@+id/answer4cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer4dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, dengem normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers4RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+
+    <!-- Soru 5 -->
+    <TextView
+        android:id="@+id/question5TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru5:Hareket etmeye başlamakta veya durdurmakta zorlanıyor musunuz?Bir sandalyeden kalkmak veya bir araç sürmek gibi "
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers5RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question5TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer5aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer5bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer5cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer5dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, hareket etme ve durdurma normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers5RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+
+    <!-- Soru 6 -->
+    <TextView
+        android:id="@+id/question6TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru6:Yazarken harfleriniz küçük ve düzensiz mi görünüyor? Yazarken el yazınızda belirgin bir değişiklik fark ettiniz mi?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers6RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question6TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer6aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer6bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer6cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer6dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, el yazım normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers6RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+
+    <!-- Soru 7 -->
+    <TextView
+        android:id="@+id/question7TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru7:Yüz ifadelerinizde azalma veya donukluk fark ettiniz mi? Özellikle gülümseme veya kaş kaldırma gibi ifadelerde zorluk çekiyor musunuz?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers7RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question7TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer7aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer7bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer7cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer7dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, yüz ifadelerim normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers7RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+
+    <!-- Soru 8 -->
+    <TextView
+        android:id="@+id/question8TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru8:Konuşurken sesinizde bir değişiklik veya güçlük fark ettiniz mi? Örneğin, sesinizin düşük veya monoton olması gibi."
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers8RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question8TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer8aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer8bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer8cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer8dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, sesim normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers8RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+
+    <!-- Soru 9 -->
+    <TextView
+        android:id="@+id/question9TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nextButton8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Soru9:Son zamanlarda hafıza veya dikkatle ilgili sorunlar yaşıyor musunuz?"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/answers9RadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/question9TextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/answer9aRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="a) Evet, çok fazla" />
+
+        <RadioButton
+            android:id="@+id/answer9bRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="b) Evet, orta seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer9cRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="c) Evet, az seviyede" />
+
+        <RadioButton
+            android:id="@+id/answer9dRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="d) Hayır, hafıza ve dikkatim normal" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/nextButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/answers9RadioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Sonraki" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ListView
+        android:id="@+id/listViewPostureExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageView
+        android:id="@+id/otuzexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuz" />
+
+    <TextView
+        android:id="@+id/otuzexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/otuzexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandalyeye dik bir şekilde oturun. Kol dayama yerlerini
+tutun. Bir ayağınızı diğerinin önüne atın. Kollarınızla
+destek alın ve dik bir şekilde ayağa kalkın. Dizlerinizi
+kırarak yavaşça oturun. Düşmeye karşı dikkatli olun."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzbirexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuzbir" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzbirexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzbirexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sandalyeye dik bir şekilde oturun.
+Kollarınızı birbirine kavuşturun. Hiçbir destek olmadan
+ayağa kalkın ve oturun. Düşmeye karşı dikkatli olun."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzikiexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuziki" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzikiexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzikiexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sağlam bir sandalyeyi tutarak ayakta durun.
+Dizini bükmeden bacağınızı öne ve arkaya hareket ettirin.
+Diğer bacağınızda da aynısını yapın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzucexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuzuc" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzucexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 4"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzucexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="İki elinizi de alçak bir taburenin üzerine koyun
+ileri doğru eğilin ve sonrasında
+eskisi gibi dik pozisyonda durun. "
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzdortexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuzdort" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzdortexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzdortexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayakta desteksiz bir şekilde güçlü durun.
+Duruşunuzu dikleştirin. Ayaklarınızı açın. Bu duruş
+pozisyonunda 50'ye kadar sayın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzbesexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuzbes" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzbesexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 6"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzbesexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Duruşunuzu dikleştirin. İki ayağınızı açarak durun.
+Ellerinizi havaya kaldırın ve indirin."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzaltiexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuzalti" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzaltiexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 7"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzaltiexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Düz durun. Kollarınız önde,
+bacaklarınız açık bir şekilde durun.
+Vücudunuzu sağa ve sola çevirirken dengenizi"
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/otuzyediexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/otuzyedi" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/otuzyediexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/otuzyediexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ayaklarınız açık bir şekilde, bir duvara dayanın,
+karnınızı içinize çekin. Nefes alıp, verin."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+
+
+
+
+</LinearLayout>
+</ScrollView>

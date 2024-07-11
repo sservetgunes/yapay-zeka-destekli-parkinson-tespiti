@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <ListView
+        android:id="@+id/listViewHandExercises"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageView
+        android:id="@+id/yirmiexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yirmi" />
+
+    <TextView
+        android:id="@+id/yirmiexercisead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Egzersiz 1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/yirmiexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Baş parmak ve işaret parmağınızı mümkün olduğunca
+hızlı şekilde birbirine vurun. Bunu diğer elinizle de yapın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/yirmibirexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yirmibir" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/yirmibirexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/yirmibirexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirsek bükülmüş halde kolunuzu öne doğru kaldırın.
+Elinizi yumruk yapın ve yumruğu tamamen açın bunu
+diğer elinizle de yapın."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/yirmiikiexercise"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/yirmiiki" />
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/yirmiikiexercisead"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Egzersiz 3"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Açıklama -->
+    <TextView
+        android:id="@+id/yirmiikiexercisetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kollarınızı dirsekten bükerek öne doğru uzatın.
+Ellerinizi yumruk yapın. Yumruk yapılmış halde
+ellerinizi aşağı ve yukarı hareket ettirin."
+        android:textSize="16sp"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+</ScrollView>

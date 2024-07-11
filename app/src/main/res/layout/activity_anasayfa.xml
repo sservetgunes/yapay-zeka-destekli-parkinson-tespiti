@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BC7FCD"
+    android:padding="16dp">
+
+    <!-- Profil Resmi ve Profil Düzenle Butonu -->
+    <LinearLayout
+        android:id="@+id/profileLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/my_icon"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/profile_image_description" />
+
+        <Button
+            android:id="@+id/editProfileButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#86469C"
+            android:text="Profil Düzenle" />
+    </LinearLayout>
+
+    <!-- Diğer Butonlar -->
+    <Button
+        android:id="@+id/hareketbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="#FB9AD1"
+        android:onClick="startMainActivity"
+        android:text="Hareket Takibi ve Analiz" />
+
+    <Button
+        android:id="@+id/hatirlaticibuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FB9AD1"
+        android:layout_marginTop="10dp"
+        android:onClick="startMedicationReminderActivity"
+        android:text="İlaç Hatırlatıcı" />
+
+    <Button
+        android:id="@+id/egzersizbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FB9AD1"
+        android:text="Egzersiz Önerileri" />
+
+    <Button
+        android:id="@+id/beslenmebuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FB9AD1"
+        android:text="Beslenme Önerileri" />
+
+    <Button
+        android:id="@+id/testbuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FB9AD1"
+        android:text="Belirti Testi" />
+
+
+    <Button
+        android:id="@+id/randevubuton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#FB9AD1"
+        android:text="Randevu Al" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D862BC"
+        android:text="Çıkış Yap" />
+
+
+</LinearLayout>
